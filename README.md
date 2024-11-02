@@ -19,8 +19,6 @@ Baby Names Trend is a comprehensive full-stack project that visualizes the popul
 ├── client/
 │   ├── babygraphics.py    # Main GUI application
 │   ├── babygraphicsgui.py # GUI setup and handling
-│   └── assets/            # Assets like icons, images, etc.
-│       └── example-screenshot.png
 ├── server/
 │   ├── babynames.py       # Backend data processing
 │   ├── data/              # Contains baby name data files for various years
