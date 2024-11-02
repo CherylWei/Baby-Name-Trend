@@ -15,18 +15,20 @@ Baby Names Trend is a comprehensive full-stack project that visualizes the popul
 ## Project Structure
 
 ```plaintext
-.
 ├── client/
-│   ├── babygraphics.py    # Main GUI application
-│   ├── babygraphicsgui.py # GUI setup and handling
+│   ├── babygraphics.py         # Main GUI application
+│   ├── babygraphicsgui.py      # GUI setup and handling
+│   └── assets/                 # Assets like icons, images, etc.
+│       └── example-screenshot.png
+├── data/                       # Contains baby name data files for various years
+│   ├── baby-1900.txt
+│   ├── baby-1910.txt
+│   ...                         # More files up to 2020
+│   └── baby-2020.txt
 ├── server/
-│   ├── babynames.py       # Backend data processing
-│   ├── data/              # Contains baby name data files for various years
-│       ├── baby-1900.txt
-│       ├── baby-1910.txt
-│       ...                # More files up to 2020
-│       └── baby-2020.txt
-└── README.md              # Project documentation
+│   ├── babynames.py            # Backend data processing
+│   └── webcrawler.py           # Web crawler for collecting additional data
+└── README.md    
 ```
 
 ## Installation
